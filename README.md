@@ -62,7 +62,7 @@ Our proposed **GA-CNN (Eff-RPM)** model was evaluated against existing benchmark
 *Proposed model achieved an energy consumption of **76.504 kWh**.*
 
 ### 2. Operational Cost Analysis
-![Cost Analysis](APKA_IMAGE_URL_YAHAN_PASTE_KAREIN)
+![Cost Analysis] https://github.com/manoj-dixit-research/Energy-Efficient-Cloud-Scheduling/blob/main/results_images/Cost.png?raw=true
 *The total cost was reduced to **236,001 C$** for 115 tasks.*
 
 ### 3. Resource Utilization (%)
