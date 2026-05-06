@@ -42,6 +42,8 @@ Authors: Manoj Kumar Dixit, Dilip Kumar
 
 Journal: Sustainable Computing: Informatics and Systems, Volume 47
 
+"The proposed GA-CNN model shows a ~20% reduction in energy consumption and a significant improvement in resource utility (~89%) compared to benchmark algorithms like BULLET, SMO, and ABC."
+
 Why this research matters:
 Academic Rigor: Published in a high-impact Elsevier journal, ensuring the methodology has undergone strict peer review.
 
