@@ -68,6 +68,7 @@ Our proposed **GA-CNN (Eff-RPM)** model was evaluated against existing benchmark
 ### 3. Resource Utilization (%)
 ![Resource Utility](APKA_IMAGE_URL_YAHAN_PASTE_KAREIN)
 *Achieved a peak resource utility of **88.922%**.*
+
 Author: Manoj Kumar Dixit
 
 PhD Scholar, Department of CSE, National Institute of Technology (NIT) Jamshedpur.
