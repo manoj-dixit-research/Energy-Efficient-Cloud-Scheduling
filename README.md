@@ -1,41 +1,38 @@
-# Energy-Efficient-Cloud-Scheduling
-Implementation of an Energy-Efficient Resource Provisioning framework in Cloud Data Centers using Hybrid GA-CNN Optimization. Built with CloudSim 4.0, ND4J, and DL4J
-# Energy-Efficient Cloud Resource Provisioning using GA-CNN Optimization
+Energy-Efficient Resource Provisioning in Cloud Data Centers
 
-## Project Overview
-This project presents an advanced framework for **Resource Provisioning in Cloud Data Centers**[cite: 3]. It utilizes a hybrid optimization approach combining **Genetic Algorithms (GA)** for task clustering[cite: 1] and **Convolutional Neural Networks (CNN)** for dynamic scheduling decisions[cite: 6]. The simulation is powered by **CloudSim 4.0**[cite: 11] and uses real-world workloads from the **PlanetLab** dataset[cite: 13].
+🚀 Project Overview
+This repository contains the implementation of an Effective Resource Provisioning Mechanism (Eff-RPM) designed for large-scale cloud data centers. The project addresses the critical challenge of energy efficiency and resource management by utilizing a hybrid optimization strategy.
+Our framework integrates Enhanced Genetic K-means (EGKM) for workload clustering and a Hybrid Optimal Convolutional Neural Network (HOCNN) for intelligent resource allocation. The simulation is conducted using the CloudSim platform with real-world traces from the PlanetLab and Bitbrains datasets.
 
-##  Core Methodology
-* **Task Clustering:** Uses GA and K-Means to group incoming user requests based on resource intensity[cite: 1, 2].
-* **Intelligent Scheduling:** A CNN model (built with DL4J/ND4J) predicts the most efficient VM mapping for each cluster[cite: 6, 12, 15].
-* **Resource Modeling:** Virtual Datacenters, Hosts, and VMs are modeled to reflect real cloud environments[cite: 5, 9].
+🧠 Key Features & Methodology
+Workload Pre-processing: Eliminates noisy and invalid requests while assigning unique identifiers to manage Service Level Agreements (SLA) effectively.
+Intelligent Clustering (EGKM): Categorizes workloads based on Quality of Service (QoS) requirements, significantly reducing makespan and computation time.
+Deep Learning Prediction: A CNN-based model predicts future CPU utilization and workload bursts to enable proactive resource scaling.
+Cuckoo Search Optimization (CSO): Optimally provisions resources by balancing multiple parameters: Response Time, Makespan, Resource Utility, and Energy Consumption.
+📈 Performance Results
+The proposed Eff-RPM outperforms existing methods (like ABC, PSO, and BULLET) across all major benchmarks:
+Energy Consumption: Reduced to 76.504 kWh.
+Resource Utilization: Achieved a high efficiency of 88.922%.
+SLA Violation Rate: Maintained at a low 6.541%.
+Response Time: Optimized to 278.84 s.
 
-## Performance Metrics
-The system evaluates the "Proposed" model against benchmark algorithms like ABC, PSO, and Round Robin across several metrics[cite: 20, 24, 25]:
-- **Makespan Optimization**[cite: 25]
-- **Energy Efficiency (kWh)**[cite: 23]
-- **SLA Violation Rate (%)**[cite: 20]
-- **Resource Utility (%)**[cite: 26]
+🛠️ Setup & Execution
+Clone the Repo: Download the source code and datasets.
+Configure Libraries: Add all JAR files from the /lib folder (CloudSim, DL4J, ND4J, JFreeChart) to your IDE's Build Path.
+Set Data Path: Ensure the workload path in Main.java points to your local /workload folder.
+Run: Execute Code.Main.java to view performance graphs.
 
-## Setup Instructions
-### Prerequisites
-- **Java Development Kit (JDK) 8+**
-- **IDE:** IntelliJ IDEA or Eclipse
+📖 Research Publication
+This work is based on the research paper published in Sustainable Computing: Informatics and Systems (SUSCOM), Elsevier (2025).
+Title: Energy-efficient resource provisioning in cloud data centers
+Authors: Manoj Kumar Dixit, Dilip Kumar
+Journal: Sustainable Computing: Informatics and Systems, Volume 47
 
-### Dependencies
-All required JAR files are located in the `/lib` folder[cite: 11, 12, 15]:
-1. `cloudsim-4.0.jar`
-2. `nd4j-api-0.9.0.jar`
-3. `deeplearning4j-core-0.4.0.jar`
-4. `jfreechart-1.0.9.jar` & `jcommon-1.0.17.jar`
+Why this research matters:
+Academic Rigor: Published in a high-impact Elsevier journal, ensuring the methodology has undergone strict peer review.
+Sustainability Focus: The research directly contributes to "Green Computing" by proposing a model that slashes energy waste in global data centers.
+Hybrid Innovation: It is one of the few frameworks that successfully hybridizes evolutionary algorithms (Genetic) with Deep Learning (CNN) to solve real-time scheduling conflicts.
+Real-world Applicability: Beyond simulation, this logic is designed for practical applications like interactive online gaming, financial trading, and real-time analytics.
 
-### How to Run
-1. Clone this repository to your local machine.
-2. Import the project into your IDE.
-3. Add all JARs from the `/lib` folder to your project's **Build Path/Libraries**.
-4. Verify the dataset path in `Code/Main.java` points to the `/workload` folder[cite: 3].
-5. Execute `Code.Main.java`[cite: 3].
-
-## 📝 Author
-**Manoj Kumar Dixit**
-PhD Scholar, NIT Jamshedpur
+Author: Manoj Kumar Dixit
+PhD Scholar, Department of CSE, National Institute of Technology (NIT) Jamshedpur.
