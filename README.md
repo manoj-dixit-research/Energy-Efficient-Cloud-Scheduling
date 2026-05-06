@@ -53,6 +53,21 @@ Hybrid Innovation: It is one of the few frameworks that successfully hybridizes 
 
 Real-world Applicability: Beyond simulation, this logic is designed for practical applications like interactive online gaming, financial trading, and real-time analytics.
 
+## 📊 Simulation Results
+
+Our proposed **GA-CNN (Eff-RPM)** model was evaluated against existing benchmarks like BULLET, SCOOTER, and ICA-K_Means.
+
+### 1. Energy Consumption Comparison
+![Energy Consumption](APKA_IMAGE_URL_YAHAN_PASTE_KAREIN)
+*Proposed model achieved an energy consumption of **76.504 kWh**.*
+
+### 2. Operational Cost Analysis
+![Cost Analysis](APKA_IMAGE_URL_YAHAN_PASTE_KAREIN)
+*The total cost was reduced to **236,001 C$** for 115 tasks.*
+
+### 3. Resource Utilization (%)
+![Resource Utility](APKA_IMAGE_URL_YAHAN_PASTE_KAREIN)
+*Achieved a peak resource utility of **88.922%**.*
 Author: Manoj Kumar Dixit
 
 PhD Scholar, Department of CSE, National Institute of Technology (NIT) Jamshedpur.
