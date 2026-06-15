@@ -31,7 +31,7 @@ st.subheader("📊 Phase 1 & 2: Telemetry Data Normalization & Clustering (EGKM)
 # Simulating data window matrix
 if 'chart_data' not in st.session_state:
     st.session_state.chart_data = pd.DataFrame({
-        'Timestamp': pd.date_range(start='now', periods=10, freq='S'),
+        'Timestamp': pd.date_range(start='now', periods=10, freq='s'),
         'Raw Workload (CPU % / 100)': [0.35, 0.65, 0.15, 0.88, 0.45, 0.85, 0.20, 0.95, 0.60, 0.10],
         'HOCNN Predicted Demand': [0.32, 0.61, 0.18, 0.85, 0.49, 0.81, 0.23, 0.91, 0.58, 0.15],
         'Allocated Pod Replicas': [2, 4, 1, 5, 3, 5, 2, 6, 4, 1]
